@@ -5,8 +5,12 @@ html {
 body {
 	margin: 0;
 	font-family: 'Muli', sans-serif;
+	background-color: #f7f7f7;
+	position: relative;
+	min-height: 100vh;
 }
 
 #wrapper {
+	padding-bottom: 3rem;
 	max-width: 900px;
 }

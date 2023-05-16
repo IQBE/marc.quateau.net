@@ -1,4 +1,274 @@
 @import "algemeen/body.css";
 @import "algemeen/header.css";
 @import "algemeen/footer.css";
-@import "specifiek/layout.index.css";
+
+.klikbaar:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
+}
+
+.klikbaar:not(:hover) {
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  box-shadow: 0;
+  transition: 0.5s;
+}
+
+.buttonlinkwhite {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  width: 450px;
+}
+
+.buttonlinkwhite span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonlinkwhite span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonlinkwhite:hover span {
+  padding-right: 25px;
+}
+
+.buttonlinkwhite:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonlinkblue {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  width: 450px;
+}
+
+.buttonlinkblue span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonlinkblue span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonlinkblue:hover span {
+  padding-right: 25px;
+}
+
+.buttonlinkblue:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#begroeting {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+#begroeting .grid-item {
+  padding: 1rem;
+}
+
+#homelogodiv {
+  height: 25vh;
+  text-align: right;
+}
+
+#homelogo {
+  height: 25vh;
+  width: auto;
+}
+
+#homemarc {
+  height: 25vh;
+  vertical-align: middle;
+}
+
+#hometext {
+  width: 50%;
+}
+
+#naam {
+  text-align: center;
+  font-size: 5vh;
+  font-weight: 700;
+}
+
+#kunstschilder {
+  text-align: center;
+}
+
+#biografiesectie {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerblue;
+}
+
+#biografiefotodiv {
+  text-align: center;
+  display: inline-block;
+  height: 33vh;
+  width: 33vw;
+}
+
+#biografiefoto {
+  height: 33vh;
+  width: auto;
+}
+
+#biografietekstdiv {
+  text-align: center;
+  position: relative;
+  height: 33vh;
+  width: 33vw;
+}
+
+#biografietekst {
+  height: 75%;
+  margin: 0;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-35%);
+}
+
+#biografieknop {
+  height: 25%;
+  margin: 0;
+  color: white;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#volgendesectie {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tentoonstellingenfotodiv {
+  text-align: center;
+  display: inline-block;
+  height: 33vh;
+  width: 33vw;
+}
+
+#tentoonstellingenfoto {
+  height: 33vh;
+  width: auto;
+}
+
+#tentoonstellingentekstdiv {
+  text-align: center;
+  display: inline-block;
+  height: 33vh;
+  width: 33vw;
+}
+
+#tentoonstellingentekst {
+  height: 75%;
+  margin: 0;
+}
+
+#tentoonstellingenknop {
+  height: 25%;
+  margin: 0;
+}
+
+#highlight {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+
+#info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#info .grid-item {
+  width: 100%;
+  height: 120vh;
+}
+
+#highlightfotodiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 33vh;
+  width: 33vw;
+}
+
+#highlightfoto {
+  height: 75vh;
+}
+
+#highlighttextdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#highlighttitle {
+  /* color: white; */
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+#highlighttext {
+  margin: 0;
+  /* color: white; */
+  padding-right: 5vw;
+}
+
+#highlightlinkknop {
+  margin-top: 80px;
+}

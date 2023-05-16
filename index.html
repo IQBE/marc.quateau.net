@@ -8,15 +8,16 @@
         <link rel="stylesheet" href="css/index.css" />
 
         <link rel="shortcut icon" href="img/icon.png" />
-        <title>Marc - Home</title>
+        <title>Marc</title>
     </head>
 
     <body>
         <div class="wrapper">
+        <p class="spacer" style="margin: 0; height: 2rem; background-color: white;" />
             <div class="menu">
                 <ul>
                     <li>
-                        <button onclick="window.location.href='index.html'" title="Klik hier om naar de home pagina te gaan" class="button" style="color: black !important;">Home</button>
+                        <button onclick="window.location.href='index.html'" title="Klik hier om naar de home pagina te gaan" class="button" style="color: black !important; background-color: #f7f7f7 !important;">Home</button>
                     </li>
                     <li>
                         <button onclick="window.location.href='biografie.html'" title="Klik hier om naar de biografie pagina te gaan" class="button">Biografie</button>
@@ -43,12 +44,14 @@
                     </div>
 
                     <div id="homemarc" class="grid-item">
-                        <p id="naam">
-                            Marc Quateau
-                        </p>
-                        <p id="kunstschilder">
-                            KUNSTSCHILDER / BEELDHOUWER
-                        </p>
+                        <div id="hometext">
+                            <p id="naam">
+                                Marc Quateau
+                            </p>
+                            <p id="kunstschilder">
+                                KUNSTSCHILDER / BEELDHOUWER
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -61,7 +64,15 @@
                         </div>
                         <div id="highlighttextdiv" class="grid-item">
                             <p id="highlighttitle">Voorbeeld foto </p>
-                            <p id="highlighttext">Dit is tekst over het beeld dat hiernaast staat. Het is een beeld met kleuren en geuren en verschillende verschillende andere aspecten. Het is heel leuk om te zien en deze tekst moet lang genoeg zijn om een paar lijnen te vullen van daar da ik hier een beetje extra in aan het typen ben, het maakt niet zo veel uit wat er hier staat, het is maar een placeholder tekst.</p>
+                            <p id="highlighttext">
+                                Dit is tekst over het beeld dat hiernaast staat. Het is een beeld met kleuren en geuren en verschillende verschillende andere aspecten. Het is heel leuk om te zien en deze 
+                                tekst moet lang genoeg zijn om een paar lijnen te vullen van daar da ik hier een beetje extra in aan het typen ben, het maakt niet zo veel uit wat er hier staat, het is maar een placeholder tekst.
+                            </p>
+                            <!-- <div id="highlightlinkknop">
+                                <button class="buttonlinkwhite" onclick="window.location.href='portfolio.html'">
+                                    <span>Leer meer over dit en andere werken</span>
+                                </button>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -78,7 +89,7 @@
                         </p>
                         <div id="biografieknop">
                             <button class="buttonlinkwhite" onclick="window.location.href='biografie.html'">
-                                <span>Lees meer over Marc in zijn biografie </span>
+                                <span>Lees meer over Marc in zijn biografie</span>
                             </button>
                         </div>
                     </div>
@@ -112,12 +123,6 @@
     </body>
     <footer>
         <div class="wrapper">
-            <div id="contact">
-                <p>Vragen? Bezoek de</p>
-                <a onclick="window.location.href='contact.html'" title="Klik hier om naar de contact pagina te gaan">contact</a>
-                <p>pagina of stuur een mailtje naar</p>
-                <a href = "mailto: marc.quateau@telenet.be" title="Klik hier om een mail te sturen naar Marc">marc.quateau@telenet.be</a>
-            </div>
             <div id="copyright">
                 &copy;2019 -
                 <script>

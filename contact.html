@@ -5,14 +5,17 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/contact.css" />
 
         <link rel="shortcut icon" href="img/icon.png" />
-        <title>Marc - Biografie</title>
+        <title>Marc - Contact</title>
+        <script src="https://kit.fontawesome.com/7b27a1dfed.js" crossorigin="anonymous"></script>
     </head>
+
 
     <body>
       <div class="wrapper">
+        <p class="spacer" style="margin: 0; height: 2rem; background-color: white;" />
         <div class="menu">
 
           <ul>
@@ -32,20 +35,31 @@
                 <button onclick="window.location.href='links.html'" title="Klik hier om naar de links pagina te gaan" class="button">Links</button>
             </li> -->
             <li>
-                <button onclick="window.location.href='contact.html'" title="Klik hier om naar de contact pagina te gaan" class="button" style="color: black !important;">Contact</button>
+                <button onclick="window.location.href='contact.html'" title="Klik hier om naar de contact pagina te gaan" class="button" style="color: black !important; background-color: #f7f7f7 !important;">Contact</button>
             </li>
           </ul>
+        </div>
+      </div>
+
+      <div id="main">
+        <div id="greeting">
+            <h1>Contacteer Marc</h1>
+            <p>Heb je vragen over Marc zijn werken? Wil je op de hoogte blijven van zijn volgende tentoonstellingen? Interesse in een van zijn werken? Contacteer hem via een van de onderstaande mogelijkheden.</p>
+        </div>
+        <div id="contactinfo">
+            <a href="mailto:marc.quateau@telenet.be" id="email" class="card">
+                <i class="fa-solid fa-envelope fa-4x fa-fw" id="mailicon"></i>
+                <p id="emailadres">marc.quateau@telenet.be</p>
+            </a>
+            <a href="tel:+32478575011" id="telefoon" class="card">
+                <i class="fa-solid fa-phone fa-4x fa-fw" id="phoneicon"></i>
+                <p id="telefoonnummer">+32 478 57 50 11</p>
+            </a>
         </div>
       </div>
     </body>
     <footer>
         <div class="wrapper">
-            <div id="contact">
-                <p>Vragen? Bezoek de</p>
-                <a onclick="window.location.href='contact.html'" title="Klik hier om naar de contact pagina te gaan">contact</a>
-                <p>pagina of stuur een mailtje naar</p>
-                <a href = "mailto: marc.quateau@telenet.be" title="Klik hier om een mail te sturen naar Marc">marc.quateau@telenet.be</a>
-            </div>
             <div id="copyright">
                 &copy;2019 -
                 <script>
