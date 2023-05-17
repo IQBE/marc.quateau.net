@@ -1,7 +1,5 @@
-x- biografie foto, home biografie -> profile.jpg
 home - biografie knop -> zelfde lettergroote
 tekst biografie aanpassen
-copyright -> 1970 - [year]
 home logo: lager -100Y, size x1.5
 highlight photo galary, no timer, clickable
 
