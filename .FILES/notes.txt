@@ -1,0 +1,22 @@
+x- biografie foto, home biografie -> profile.jpg
+home - biografie knop -> zelfde lettergroote
+tekst biografie aanpassen
+copyright -> 1970 - [year]
+home logo: lager -100Y, size x1.5
+highlight photo galary, no timer, clickable
+
+highlight: {
+	title: "Beslissen", //Kleiner maken
+	jaartal: 2023
+}
+
+Home add higlight, schilderij: {
+	title: "Beslissen",
+	jaartal: 2023,
+	txt: "Olieverf op doek \n 30 x 40 cm"
+}
+
+highlights, met text onder, juist hoofdfoto (headover: "marc quateau")
+
+tentoonstellingen:
+	titel: kunstoevers[link], locatie manchastergebouw vaartstraat 8 aalst

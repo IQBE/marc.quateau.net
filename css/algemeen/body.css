@@ -8,9 +8,9 @@ body {
 	background-color: #f7f7f7;
 	position: relative;
 	min-height: 100vh;
+	padding-bottom: 3rem;
 }
 
 #wrapper {
-	padding-bottom: 3rem;
 	max-width: 900px;
 }

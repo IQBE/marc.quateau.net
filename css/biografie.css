@@ -1,3 +1,51 @@
 @import "algemeen/body.css";
 @import "algemeen/header.css";
 @import "algemeen/footer.css";
+
+#verwelkoming {
+  width: 75vw;
+  margin: auto;
+  margin-top: 20vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+#left-column img {
+  width: 25vw;
+  height: auto;
+}
+
+#right-column h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+#right-column p {
+  color: dodgerblue;
+}
+
+#right-column a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.blauw-accent {
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 10vh;
+  padding: 10vh;
+}
+
+#biografie-tekst {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  width: 75vw;
+  margin: auto;
+}
+
+#biografie-tekst * {
+  width: 25vw;
+}

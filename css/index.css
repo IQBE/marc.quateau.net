@@ -112,8 +112,8 @@
 }
 
 #homelogo {
-  height: 25vh;
-  width: auto;
+  width: 20vw;
+  height: auto;
 }
 
 #homemarc {
@@ -248,7 +248,8 @@
 }
 
 #highlightfoto {
-  height: 75vh;
+  width: 30vw;
+  height: auto;
 }
 
 #highlighttextdiv {
@@ -258,14 +259,12 @@
 }
 
 #highlighttitle {
-  /* color: white; */
-  font-size: 5rem;
-  font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 #highlighttext {
   margin: 0;
-  /* color: white; */
   padding-right: 5vw;
 }
 
