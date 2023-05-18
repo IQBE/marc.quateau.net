@@ -23,12 +23,12 @@
   border: none;
   color: black;
   text-align: center;
-  font-size: 1.25rem;
-  padding: 20px;
+  font-size: 0.8rem;
+  padding: 15px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  width: 450px;
+  width: 275px;
 }
 
 .buttonlinkwhite span {
@@ -56,47 +56,8 @@
   right: 0;
 }
 
-.buttonlinkblue {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: dodgerblue;
-  border: none;
-  color: white;
-  text-align: center;
-  font-size: 1.25rem;
-  padding: 20px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  width: 450px;
-}
-
-.buttonlinkblue span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.buttonlinkblue span:after {
-  content: "\00bb";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.buttonlinkblue:hover span {
-  padding-right: 25px;
-}
-
-.buttonlinkblue:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
 #begroeting {
+  margin-top: 15vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
@@ -183,91 +144,45 @@
   transform: translateX(-50%);
 }
 
-#volgendesectie {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#tentoonstellingenfotodiv {
-  text-align: center;
-  display: inline-block;
-  height: 33vh;
-  width: 33vw;
-}
-
-#tentoonstellingenfoto {
-  height: 33vh;
-  width: auto;
-}
-
-#tentoonstellingentekstdiv {
-  text-align: center;
-  display: inline-block;
-  height: 33vh;
-  width: 33vw;
-}
-
-#tentoonstellingentekst {
-  height: 75%;
-  margin: 0;
-}
-
-#tentoonstellingenknop {
-  height: 25%;
-  margin: 0;
-}
-
-#highlight {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.highlight {
   height: 120vh;
 }
 
-#info {
+.info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-#info .grid-item {
+.info div {
   width: 100%;
   height: 120vh;
 }
 
-#highlightfotodiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  height: 33vh;
-  width: 33vw;
-}
-
-#highlightfoto {
+.highlightfoto {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 30vw;
   height: auto;
 }
 
-#highlighttextdiv {
+.highlighttextdiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#highlighttitle {
+.highlighttitle {
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-#highlighttext {
+.highlighttext {
   margin: 0;
   padding-right: 5vw;
 }
 
-#highlightlinkknop {
+.highlightlinkknop {
   margin-top: 80px;
 }
