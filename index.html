@@ -1,124 +1,184 @@
 <!DOCTYPE html>
 <html lang="nl">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="keywords" content="Marc, Quateau, kunstenaar, schilder, beeldhouwer, Nieuwerkerken, Aalst, België" />
-        <meta name="description" content="Marc Quateau is een Belgische kunstenaar uit Aalst. Hij maakt tekeningen, schilderijen en beeldhouwwerken." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="Marc, Quateau, kunstenaar, schilder, beeldhouwer, Nieuwerkerken, Aalst, België"
+    />
+    <meta
+      name="description"
+      content="Marc Quateau is een Belgische kunstenaar uit Aalst. Hij maakt tekeningen, schilderijen en beeldhouwwerken."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index.css" />
 
-        <link rel="shortcut icon" href="img/icon.png" />
-        <title>Marc</title>
-    </head>
+    <link rel="shortcut icon" href="img/icon.png" />
+    <title>Marc</title>
+  </head>
 
-    <body>
-        <div class="wrapper">
-        <p class="spacer" style="margin: 0; height: 2rem; background-color: white;" />
-            <div class="menu">
-                <ul>
-                    <li>
-                        <button onclick="window.location.href='index.html'" title="Klik hier om naar de home pagina te gaan" class="button" style="color: black !important; background-color: #f7f7f7 !important;">Home</button>
-                    </li>
-                    <li>
-                        <button onclick="window.location.href='biografie.html'" title="Klik hier om naar de biografie pagina te gaan" class="button">Biografie</button>
-                    </li>
-                    <li>
-                        <button onclick="window.location.href='tentoonstellingen.html'" title="Klik hier om naar de tentoonstellingen pagina te gaan" class="button">Tentoonstellingen</button>
-                    </li>
-                    <li>
-                        <button onclick="window.location.href='portfolio.html'" title="Klik hier om naar de portfolio pagina te gaan" class="button">Portfolio</button>
-                    </li>
-                    <!-- <li>
+  <body>
+    <div class="wrapper">
+      <span
+        class="spacer"
+        style="margin: 0; height: 2rem; background-color: white"
+      />
+      <div class="menu">
+        <ul>
+          <li>
+            <button
+              onclick="window.location.href='index.html'"
+              title="Klik hier om naar de home pagina te gaan"
+              class="button"
+              style="
+                color: black !important;
+                background-color: #f7f7f7 !important;
+              "
+            >
+              Home
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="window.location.href='biografie.html'"
+              title="Klik hier om naar de biografie pagina te gaan"
+              class="button"
+            >
+              Biografie
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="window.location.href='tentoonstellingen.html'"
+              title="Klik hier om naar de tentoonstellingen pagina te gaan"
+              class="button"
+            >
+              Tentoonstellingen
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="window.location.href='portfolio.html'"
+              title="Klik hier om naar de portfolio pagina te gaan"
+              class="button"
+            >
+              Portfolio
+            </button>
+          </li>
+          <!-- <li>
                         <button onclick="window.location.href='links.html'" title="Klik hier om naar de links pagina te gaan" class="button">Links</button>
                     </li> -->
-                    <li>
-                        <button onclick="window.location.href='contact.html'" title="Klik hier om naar de contact pagina te gaan" class="button">Contact</button>
-                    </li>
-                </ul>
+          <li>
+            <button
+              onclick="window.location.href='contact.html'"
+              title="Klik hier om naar de contact pagina te gaan"
+              class="button"
+            >
+              Contact
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div id="content">
+        <div id="begroeting">
+          <div id="homelogodiv" class="grid-item">
+            <img src="img/logo-mq.png" alt="logo" id="homelogo" />
+          </div>
+
+          <div id="homemarc" class="grid-item">
+            <div id="hometext">
+              <p id="naam">Marc Quateau</p>
+              <p id="kunstschilder">KUNSTSCHILDER / BEELDHOUWER</p>
             </div>
-
-            <div id="content">
-                <div id="begroeting">
-                    <div id="homelogodiv" class="grid-item">
-                        <img src="img/logo-mq.png" alt="logo" id="homelogo"/>
-                    </div>
-
-                    <div id="homemarc" class="grid-item">
-                        <div id="hometext">
-                            <p id="naam">
-                                Marc Quateau
-                            </p>
-                            <p id="kunstschilder">
-                                KUNSTSCHILDER / BEELDHOUWER
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="highlight">
-                    <div class="info">
-                        <div class="highlightfotodiv">
-                            <img src="img/beslissen1.jpg" alt="beeld" class="highlightfoto"/>
-                        </div>
-                        <div class="highlighttextdiv">
-                            <p class="highlighttitle">Beslissen, 2023</p>
-                            <p class="highlighttext">
-                                Acrylic one, hout, metaal, verf
-                            </br>
-                                22 x 25 x 34 cm
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="biografiesectie">
-                    <div id="biografiefotodiv">
-                        <img src="img/profile.jpg" alt="biografie" id="biografiefoto" class="klikbaar" onclick="window.location.href='biografie.html'" title="Klik hier om naar de biografie pagina te gaan" />
-                    </div>
-
-                    <div id="biografietekstdiv">
-                        <p id="biografietekst">
-                            Marc kijkt, luistert, ruikt, proeft en voelt aan de beelden die zijn pad kruisen. De gevoelens die ze oproepen geeft hij opnieuw vorm naar de natuur, niet gehinderd door hun objectieve voorkomen. Zijn emoties
-                            laat hij sturen door kennis; via analyse van het beeld, maar ook via een queeste naar het achterliggende verhaal en de context waarin hij het originele beeld aantrof.
-                        </p>
-                        <div id="biografieknop">
-                            <button class="buttonlinkwhite" onclick="window.location.href='biografie.html'">
-                                <span>Lees meer over Marc in zijn biografie</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="highlight">
-                    <div class="info">
-                        <div class="highlightfotodiv">
-                            <img src="img/schilderij-beslissen.jpg" alt="schilderij" class="highlightfoto"/>
-                        </div>
-                        <div class="highlighttextdiv">
-                            <p class="highlighttitle">Beslissen, 2023</p>
-                            <p class="highlighttext">
-                                Olieverf op doek
-                            </br>
-                                30 x 40 cm
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </body>
-    <footer>
-        <div class="wrapper">
-            <div id="copyright">
-                &copy;1970 -
-                <script>
-                    document.write(new Date().getFullYear());
-                </script>
-                Marc Quateau. Alle rechten voorbehouden.
+
+        <div class="highlight">
+          <div class="info">
+            <div class="highlightfotodiv">
+              <img src="img/beslissen1.jpg" alt="beeld" class="highlightfoto" />
             </div>
+            <div class="highlighttextdiv">
+              <p class="highlighttitle">Beslissen, 2023</p>
+              <p class="highlighttext">
+                Acrylic one, hout, metaal, verf
+                <br />
+                22 x 25 x 34 cm
+              </p>
+            </div>
+          </div>
         </div>
-    </footer>
+
+        <div id="biografiesectie">
+          <div id="biografiefotodiv">
+            <img
+              src="img/profile.jpg"
+              alt="biografie"
+              id="biografiefoto"
+              class="klikbaar"
+              onclick="window.location.href='biografie.html'"
+              title="Klik hier om naar de biografie pagina te gaan"
+            />
+          </div>
+
+          <div id="biografietekstdiv">
+            <p id="biografietekst">
+              Marc kijkt, luistert, ruikt, proeft en voelt aan de beelden die
+              zijn pad kruisen. De gevoelens die ze oproepen geeft hij opnieuw
+              vorm naar de natuur, niet gehinderd door hun objectieve voorkomen.
+              Zijn emoties laat hij sturen door kennis; via analyse van het
+              beeld, maar ook via een queeste naar het achterliggende verhaal en
+              de context waarin hij het originele beeld aantrof.
+            </p>
+            <div id="biografieknop">
+              <button
+                class="buttonlinkwhite"
+                onclick="window.location.href='biografie.html'"
+              >
+                <span>Lees meer over Marc in zijn biografie</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="highlight">
+          <div class="info">
+            <div class="highlightfotodiv">
+              <img
+                src="img/schilderij-beslissen.jpg"
+                alt="schilderij"
+                class="highlightfoto"
+              />
+            </div>
+            <div class="highlighttextdiv">
+              <p class="highlighttitle">Beslissen, 2023</p>
+              <p class="highlighttext">
+                Olieverf op doek
+                <br />
+                30 x 40 cm
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="wrapper">
+      <div id="copyright">
+        &copy;1970 -
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Marc Quateau. Alle rechten voorbehouden.
+      </div>
+    </div>
+  </footer>
 </html>
