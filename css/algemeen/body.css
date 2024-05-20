@@ -1,16 +1,17 @@
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-	margin: 0;
-	font-family: 'Muli', sans-serif;
-	background-color: #f7f7f7;
-	position: relative;
-	min-height: 100vh;
-	padding-bottom: 3rem;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  background-color: #f7f7f7;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 3rem;
+  font-size: 1rem;
 }
 
 #wrapper {
-	max-width: 900px;
+  max-width: 900px;
 }

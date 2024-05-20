@@ -28,7 +28,7 @@
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  width: 275px;
+  width: 300px;
 }
 
 .buttonlinkwhite span {
@@ -96,7 +96,7 @@
   text-align: center;
 }
 
-#biografiesectie {
+.highlightbar {
   padding-top: 5rem;
   padding-bottom: 5rem;
   width: 100%;
@@ -106,7 +106,29 @@
   background-color: dodgerblue;
 }
 
-#biografiefotodiv {
+.ppr {
+  color: white;
+  width: 75vw;
+}
+
+.ppr-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.ppr-sub {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ppr-text {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* #biografiefotodiv {
   text-align: center;
   display: inline-block;
   height: 33vh;
@@ -116,9 +138,9 @@
 #biografiefoto {
   height: 33vh;
   width: auto;
-}
+} */
 
-#biografietekstdiv {
+/* #biografietekstdiv {
   text-align: center;
   position: relative;
   height: 33vh;
@@ -132,16 +154,12 @@
   position: absolute;
   top: 50%;
   transform: translateY(-35%);
-}
+} */
 
-#biografieknop {
+#linkbutton {
   height: 25%;
   margin: 0;
   color: white;
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .highlight {
@@ -165,6 +183,7 @@
   transform: translate(-50%, -50%);
   width: 30vw;
   height: auto;
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
 }
 
 .highlighttextdiv {

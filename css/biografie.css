@@ -18,17 +18,17 @@
 
 #right-column h1 {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 #right-column p {
   color: dodgerblue;
+  font-size: 1.3rem;
 }
 
 #right-column a {
   text-decoration: none;
   color: black;
-
 }
 
 .blauw-accent {
@@ -46,6 +46,7 @@
   margin: auto;
 }
 
-#biografie-tekst * {
+#biografie-tekst p {
   width: 25vw;
+  font-size: 1.3rem;
 }

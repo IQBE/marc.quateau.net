@@ -1,72 +1,139 @@
 <!DOCTYPE html>
 <html lang="nl">
-    <head>
-        <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
 
-        <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="stylesheet" href="css/tentoonstellingen.css" />
+    <link rel="stylesheet" href="css/tentoonstellingen.css" />
 
-        <link rel="shortcut icon" href="img/icon.png" />
-        <title>Marc - Tentoonstellingen</title>
-    </head>
+    <link rel="shortcut icon" href="img/icon.png" />
+    <title>Marc - Tentoonstellingen</title>
+  </head>
 
-    <body>
-      <div class="wrapper">
-        <p class="spacer" style="margin: 0; height: 2rem; background-color: white;" />
-        <div class="menu">
-          <ul>
-            <li>
-                <button onclick="window.location.href='index.html'" title="Klik hier om naar de home pagina te gaan" class="button">Home</button>
-            </li>
-            <li>
-                <button onclick="window.location.href='biografie.html'" title="Klik hier om naar de biografie pagina te gaan" class="button">Biografie</button>
-            </li>
-            <li>
-                <button onclick="window.location.href='tentoonstellingen.html'" title="Klik hier om naar de tentoonstellingen pagina te gaan" class="button" style="color: black !important; background-color: #f7f7f7 !important;">Tentoonstellingen</button>
-            </li>
-            <li>
-                <button onclick="window.location.href='portfolio.html'" title="Klik hier om naar de portfolio pagina te gaan" class="button">Portfolio</button>
-            </li>
-            <!-- <li>
+  <body>
+    <div class="wrapper">
+      <span
+        class="spacer"
+        style="margin: 0; height: 2rem; background-color: white"
+      />
+      <div class="menu">
+        <ul>
+          <li>
+            <button
+              onclick="window.location.href='index.html'"
+              title="Klik hier om naar de home pagina te gaan"
+              class="button"
+            >
+              Home
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="window.location.href='biografie.html'"
+              title="Klik hier om naar de biografie pagina te gaan"
+              class="button"
+            >
+              Biografie
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="window.location.href='tentoonstellingen.html'"
+              title="Klik hier om naar de tentoonstellingen pagina te gaan"
+              class="button"
+              style="
+                color: black !important;
+                background-color: #f7f7f7 !important;
+              "
+            >
+              Tentoonstellingen
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="window.location.href='portfolio.html'"
+              title="Klik hier om naar de portfolio pagina te gaan"
+              class="button"
+            >
+              Portfolio
+            </button>
+          </li>
+          <!-- <li>
                 <button onclick="window.location.href='links.html'" title="Klik hier om naar de links pagina te gaan" class="button">Links</button>
             </li> -->
-            <li>
-                <button onclick="window.location.href='contact.html'" title="Klik hier om naar de contact pagina te gaan" class="button">Contact</button>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <button
+              onclick="window.location.href='contact.html'"
+              title="Klik hier om naar de contact pagina te gaan"
+              class="button"
+            >
+              Contact
+            </button>
+          </li>
+        </ul>
+      </div>
 
-        <div class="tentoonstelling" id="kunstoevers">
-            <div class="head">
-                <h1 onclick="location.href='https://aalst.be/kunstoevers'" class="titel">Kunstoevers 2023</h1>
-            </div>
-            <div class="content">
-                <div class="links">
-                    <img src="img/kunstoevers.jpg" alt="Affiche kunstoevers" />
-                </div>
-                <div class="rechts">
-                    <p>
-                        Donderdag 18 tot zondag 21 mei<br>
-                        van 13 tot 19 uur<br><br>
-                        Manchestergebouw<br>
-                        Vaartstraat 8,<br>
-                        9300 Aalst
-                    </p>
-                </div>
-            </div>
+      <div class="tentoonstelling" id="kunstoevers">
+        <div class="head">
+          <h1
+            onclick="location.href='https://aalst.be/kunstoevers'"
+            class="titel"
+          >
+            Kunstoevers 2024
+          </h1>
+        </div>
+        <div class="content">
+          <div class="links">
+            <img src="img/kunstoevers2024.jpg" alt="Affiche kunstoevers" />
+          </div>
+          <div class="rechts">
+            <p>
+              Zaterdag 18 tot maandag 20 mei<br />
+              van 13 tot 18 uur<br />
+              VTI<br />
+              Vakschoolstraat 41,<br />
+              9300 Aalst
+            </p>
+          </div>
+        </div>
+        <div class="head">
+          <h1
+            onclick="location.href='https://aalst.be/kunstoevers'"
+            class="titel"
+          >
+            Kunstoevers 2023
+          </h1>
+        </div>
+        <div class="content">
+          <div class="links">
+            <img src="img/kunstoevers2023.jpg" alt="Affiche kunstoevers" />
+          </div>
+          <div class="rechts">
+            <p>
+              Donderdag 18 tot zondag 21 mei<br />
+              van 13 tot 19 uur<br />
+              Manchestergebouw<br />
+              Vaartstraat 8,<br />
+              9300 Aalst
+            </p>
+          </div>
         </div>
       </div>
-    </body>
-    <footer>
-        <div class="wrapper">
-            <div id="copyright">
-                &copy;1970 -
-                <script>
-                    document.write(new Date().getFullYear());
-                </script>
-                Marc Quateau. Alle rechten voorbehouden.
-            </div>
-        </div>
-    </footer>
+    </div>
+  </body>
+  <footer>
+    <div class="wrapper">
+      <div id="copyright">
+        &copy;1970 -
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Marc Quateau. Alle rechten voorbehouden.
+      </div>
+    </div>
+  </footer>
 </html>
