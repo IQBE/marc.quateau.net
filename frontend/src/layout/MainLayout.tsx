@@ -1,17 +1,20 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import styles from "./MainLayout.module.scss";
+import NavMenuButton from "../components/NavMenuButton";
 
 export default function MainLayout() {
   const d = new Date();
   const year = d.getFullYear();
 
   return (
-    <div>
+    <div className={styles.container}>
       <header>
         <nav>
-          <Link to="/">Home</Link> | <Link to="/biografie">Biografie</Link> |{" "}
-          <Link to="/tentoonstellingen">Tentoonstellingen</Link> |{" "}
-          <Link to="/portfolio">Portfolio</Link> |{" "}
-          <Link to="/contact">Contact</Link>
+          <NavMenuButton to="/" text="Home" />
+          <NavMenuButton to="/biografie" text="Biografie" />
+          <NavMenuButton to="/tentoonstellingen" text="Tentoonstellingen" />
+          <NavMenuButton to="/portfolio" text="Portfolio" />
+          <NavMenuButton to="/contact" text="Contact" />
         </nav>
       </header>
 
@@ -20,7 +23,7 @@ export default function MainLayout() {
       </main>
 
       <footer>
-        <p>&copy; 1970 - {year} Marc Quateau. Alle rechten voorbehouden.</p>
+        &copy; 1970 - {year} Marc Quateau. Alle rechten voorbehouden.
       </footer>
     </div>
   );

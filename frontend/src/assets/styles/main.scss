@@ -1,0 +1,16 @@
+@use "_variables" as *;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+  font-size: 1rem;
+}
+

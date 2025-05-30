@@ -1,0 +1,21 @@
+@use "@styles/variables" as *;
+
+.navMenuButton {
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+
+  &:hover {
+    color: black;
+    background-color: $background-color;
+    transition: 0.5s;
+  }
+
+  &:not(:hover) {
+    color: darkgray;
+    background-color: white;
+    transition: 0.5s;
+  }
+}
+
