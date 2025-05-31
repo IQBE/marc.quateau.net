@@ -13,27 +13,27 @@ export const routes = [
   {
     path: "/",
     element: <Home />,
-    title: "Marc | Home",
+    title: "Home",
   },
   {
     path: "/biografie",
     element: <Biografie />,
-    title: "Marc | Biografie",
+    title: "Biografie",
   },
   {
     path: "/tentoonstellingen",
     element: <Tentoonstellingen />,
-    title: "Marc | Tentoonstellingen",
+    title: "Tentoonstellingen",
   },
   {
     path: "/portfolio",
     element: <Portfolio />,
-    title: "Marc | Portfolio",
+    title: "Portfolio",
   },
   {
     path: "/contact",
     element: <Contact />,
-    title: "Marc | Contact",
+    title: "Contact",
   },
 ];
 

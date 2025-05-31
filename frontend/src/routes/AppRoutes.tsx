@@ -13,7 +13,9 @@ export default function AppRoutes() {
             <Route
               key={path}
               path={path}
-              element={<TitleWrapper title={title}>{element}</TitleWrapper>}
+              element={
+                <TitleWrapper title={`Marc | ${title}`}>{element}</TitleWrapper>
+              }
             />
           ))}
           <Route path="/*" element={<NotFound />} />

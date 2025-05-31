@@ -1,10 +1,19 @@
 import { Link } from "react-router-dom";
 import styles from "./NavMenuButton.module.scss";
 
-const NavMenuButton = (args: { to: string; text: string }) => {
+type NavMenuButtonProps = {
+  to: string;
+  text: string;
+  isActive?: boolean;
+};
+
+const NavMenuButton = ({ to, text, isActive = false }: NavMenuButtonProps) => {
   return (
-    <Link to={args.to} className={styles.navMenuButton}>
-      {args.text}
+    <Link
+      to={to}
+      className={styles.navMenuButton + (isActive ? ` ${styles.isActive}` : "")}
+    >
+      {text}
     </Link>
   );
 };
