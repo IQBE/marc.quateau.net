@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
-import styles from "./MainLayout.module.scss";
 import NavMenuButton from "../components/NavMenuButton";
 import { routes } from "../routes/routeConfig";
+import "@styles/layout.scss";
 
 export default function MainLayout() {
   const location = useLocation();
@@ -17,7 +17,7 @@ export default function MainLayout() {
   };
 
   return (
-    <div className={styles.container}>
+    <div className="container">
       <header>
         <nav>
           {routes.map(({ path, title }) => (

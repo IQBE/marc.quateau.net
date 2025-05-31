@@ -8,7 +8,16 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      "@styles": path.resolve(__dirname, "./src/assets/styles"),
+      "@styles": path.resolve(__dirname, "./src/styles"),
+    },
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `
+          @use "@styles/variables" as *;
+        `,
+      },
     },
   },
 });
