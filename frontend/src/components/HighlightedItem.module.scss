@@ -1,0 +1,42 @@
+.highlightedItem {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2,
+    p {
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    p {
+      margin-left: 0.5ch;
+      padding-left: 1rem;
+      padding-top: 0.5rem;
+      font-style: italic;
+      color: gray;
+      border-left: 1px solid gray;
+    }
+  }
+}
+

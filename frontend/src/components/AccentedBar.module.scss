@@ -1,0 +1,23 @@
+.accentedBar {
+  background-color: $primary-color;
+  color: white;
+  padding: 5rem 15vw;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0;
+    font-style: italic;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+}
+

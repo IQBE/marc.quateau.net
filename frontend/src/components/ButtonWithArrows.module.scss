@@ -1,0 +1,55 @@
+.ButtonWithArrows {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  white-space: nowrap;
+  width: auto;
+  min-height: max-content;
+
+  span {
+    display: inline-block;
+    position: relative;
+    transition: padding 0.5s;
+    padding: 0 12.5px;
+
+    &:after {
+      content: "\00bb";
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+  }
+
+  &:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  &:hover span {
+    padding: 0 25px 0 0;
+  }
+
+  &.primary {
+    background-color: $primary-color;
+    color: white;
+  }
+
+  &.secondary {
+    background-color: white;
+    color: black;
+  }
+
+  &.accent {
+    background-color: $accent-color;
+    color: white;
+  }
+}
+
