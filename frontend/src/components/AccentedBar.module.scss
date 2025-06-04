@@ -3,6 +3,14 @@
   color: white;
   padding: 5rem 15vw;
 
+  @for $columns from 2 through 4 {
+    &.columns-#{$columns} {
+      display: grid;
+      grid-template-columns: repeat(#{$columns}, 1fr);
+      gap: 5rem;
+    }
+  }
+
   h2 {
     font-size: 3rem;
     font-weight: 700;
