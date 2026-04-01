@@ -1,0 +1,41 @@
+.collection {
+  &:not(:last-child) {
+    border-bottom: 1px dotted gray;
+  }
+
+  h2,
+  h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+  }
+
+  .description {
+    width: 75vw;
+    margin: 5vh auto;
+    font-size: 1.3rem;
+    margin: 1.5rem 0;
+  }
+
+  .works {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    & > :nth-last-child(1):nth-child(odd) {
+      grid-column: 1/-1;
+    }
+  }
+}
+
