@@ -17,7 +17,7 @@ const Home = () => {
       </div>
       <HighlightedItem>
         <img
-          src="/images/collections/play-pause-repeat/pieta.jpg"
+          src="/images/collections/play-pauze-repeat/pieta.jpg"
           alt="Piëta afbeelding"
         />
         <div>
@@ -59,8 +59,8 @@ const Home = () => {
       </AccentedBar>
       <HighlightedItem>
         <img
-          src="/images/collections/play-pause-repeat/ppr-painting.jpg"
-          alt="Play Pause Repeat schilderij"
+          src="/images/collections/play-pauze-repeat/ppr-painting.jpg"
+          alt="Play Pauze Repeat schilderij"
         />
         <div>
           <h2>Play-Pauze-Repeat</h2>
