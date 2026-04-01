@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://marc.quateau.net</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://marc.quateau.net/index.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://marc.quateau.net/biografie.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://marc.quateau.net/tentoonstellingen.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://marc.quateau.net/portfolio.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://marc.quateau.net/contact.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+</urlset>
