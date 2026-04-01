@@ -1,0 +1,21 @@
+.tentoonstellingen {
+  .clickable {
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .info {
+    width: 75%;
+  }
+
+  iframe {
+    width: 50%;
+    height: 25%;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+  }
+}
+

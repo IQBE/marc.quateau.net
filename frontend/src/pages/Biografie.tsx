@@ -1,6 +1,5 @@
 import HighlightedItem from "../components/HighlightedItem";
 import AccentedBar from "../components/AccentedBar";
-import "@styles/biografie.scss";
 
 const Biografie = () => {
   return (
