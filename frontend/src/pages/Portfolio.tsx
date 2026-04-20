@@ -4,7 +4,7 @@ import "@styles/portfolio.scss";
 const collections: Collection[] = [
   {
     title: "Play - Pauze - Repeat",
-    subtitle: ["Waar men gaat langs Vlaamse wegen", "Komt men flessen tegen"],
+    subtitle: ["Waar men gaat langs Vlaamse wegen", "komt men flessen tegen"],
     description: [
       "Glazen flessen in alle kleuren, maten en vormen. Glas dat geruimd moet worden voordat het een brand aansteekt of iemand er zich aan snijdt. Afgevoerd naar een recyclagefabriek om nieuwe flessen te maken. De flessen hebben uiterlijke kenmerken die hun herkomst verbeelden. Dit is een circulair systeem dat nooit stopt. Hoogstens op pauze wordt gezet.",
       "Niet enkel Vlaanderen maar de hele wereld is bezaaid.",
