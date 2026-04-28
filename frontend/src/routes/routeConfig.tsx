@@ -3,7 +3,7 @@ import { lazy } from "react";
 export const Home = lazy(() => import("../pages/Home"));
 export const Biografie = lazy(() => import("../pages/Biografie"));
 export const Tentoonstellingen = lazy(
-  () => import("../pages/Tentoonstellingen")
+  () => import("../pages/Tentoonstellingen"),
 );
 export const Portfolio = lazy(() => import("../pages/Portfolio"));
 export const Contact = lazy(() => import("../pages/Contact"));
@@ -16,6 +16,11 @@ export const routes = [
     title: "Home",
   },
   {
+    path: "/portfolio",
+    element: <Portfolio />,
+    title: "Portfolio",
+  },
+  {
     path: "/biografie",
     element: <Biografie />,
     title: "Biografie",
@@ -24,11 +29,6 @@ export const routes = [
     path: "/tentoonstellingen",
     element: <Tentoonstellingen />,
     title: "Tentoonstellingen",
-  },
-  {
-    path: "/portfolio",
-    element: <Portfolio />,
-    title: "Portfolio",
   },
   {
     path: "/contact",
